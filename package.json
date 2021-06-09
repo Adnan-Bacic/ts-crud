@@ -1,0 +1,14 @@
+{
+  "name": "ts-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Adnan-Bacic/ts-crud.git",
+  "author": "Adnan-Bacic <adnan-bacic@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc js/index.ts -w"
+  },
+  "dependencies": {
+    "typescript": "^4.3.2"
+  }
+}
