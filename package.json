@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Adnan-Bacic/ts-crud.git",
-  "author": "Adnan-Bacic <adnan-bacic@hotmail.com>",
+  "author": "Adnan-Bacic",
   "license": "MIT",
   "scripts": {
-    "tsc": "tsc js/index.ts -w"
+    "tsc": "tsc -w"
   },
   "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
     "typescript": "^4.3.2"
   }
 }

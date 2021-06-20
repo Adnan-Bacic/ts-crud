@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typescript</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="js/index.js" type="module" defer></script>
+</head>
+<body>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-12">
+                <h1>Typescript CRUD</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="results"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form id="addUserForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="post_name" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="post_email" placeholder="Email">
+                      </div>
+                    <button class="btn btn-primary" type="submit">Add new user</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
